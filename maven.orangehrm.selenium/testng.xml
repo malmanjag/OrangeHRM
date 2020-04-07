@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ProgressionSuite" verbose="1">
+
+	<test name="progression">
+<!--   		<groups>
+			<run>
+				<exclude name="broken" />
+			</run>
+		</groups> -->
+		<classes>
+			<class name="com.orangehrm.tests.LoginProgressionTests">
+<!-- 			<methods>
+				<include name="successfulLoginAndLogout" />
+			</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>
