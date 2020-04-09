@@ -11,12 +11,12 @@
 		</File>
 	</Appenders>
 	<Loggers>
-		<Logger name="errors" level="error">
+		<Logger name="errors" level="trace">
 			<AppenderRef ref="File" />
 		</Logger>
 		<Root level="all">
 			<AppenderRef ref="Console" level="trace" />
-			<AppenderRef ref="File" level="error" />
+			<AppenderRef ref="File" level="trace" />
 		</Root>
 	</Loggers>
 </Configuration>

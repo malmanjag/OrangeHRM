@@ -37,7 +37,7 @@ public class LoginProgressionTests extends SuperTestNG {
 		landingPage = PageFactory.initElements(driver, LandingPage.class);
 		
 		
-		loggers.info("This is the first logged information of message");
+		loggers.error("This is the first logged information of message");
 		
 		// create the extent report for this test
 		logger = extent.createTest(testName);

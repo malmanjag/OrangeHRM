@@ -30,7 +30,8 @@ public class TestNGExample {
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		logger = extent.createTest("pageLoadTest");
-		System.out.println("Trying Github");
+
+	
 	}
 	
 	
